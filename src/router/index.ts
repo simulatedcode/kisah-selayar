@@ -10,16 +10,33 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/about",
-      name: "about",
+      path: "/tentang",
+      name: "tentang",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/AboutView.vue"),
     },
     {
-      path: "/blog/:slug",
-      name: "blog",
+      path: "/arsip",
+      name: "Archive",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/ArchiveFile.vue"),
+    },
+    {
+      path: "/kisah",
+      name: "Kisah",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/KisahPage.vue"),
+    },
+
+    {
+      path: "/kisah/:slug",
+      name: "kisah",
       component: () => import("../views/BlogView.vue"),
     },
   ],

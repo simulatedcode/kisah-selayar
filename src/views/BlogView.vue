@@ -1,27 +1,29 @@
 <template>
-  <div class="max-w-4xl mx-auto">
-    <div class="loading" v-if="loading">Loading...</div>
+  <div class="relative bg-gray-50 p-12">
+    <div class="max-w-4xl mr-10">
+      <div class="loading" v-if="loading">Loading...</div>
 
-    <div v-if="error" class="error">
-      {{ error }}
-    </div>
+      <div v-if="error" class="error">
+        {{ error }}
+      </div>
 
-    <div v-if="post" class="content">
-      <h1 class="text-3xl font-semibold flex justify-center py-4">
-        {{ post.title }}
-      </h1>
-      <img
-        v-if="post.image"
-        :src="imageUrlFor(post.image).width(1020)"
-        class="mx-auto"
-      />
+      <div v-if="post" class="content">
+        <h1 class="text-3xl font-semibold flex justify-start py-4">
+          {{ post.title }}
+        </h1>
+        <img
+          v-if="post.image"
+          :src="imageUrlFor(post.image).width(1020)"
+          class="mx-auto"
+        />
 
-      <h6 class="text-sm text-gray-600 mt-4 mb-4">Author: {{ post.name }}</h6>
-      <SanityBlocks :blocks="blocks" class="max-w-4xl mt-6" />
-      <div class="py-6 bg-gray-100">
-        <RouterLink to="/" class="px-6">back</RouterLink>
+        <h6 class="text-sm text-gray-600 mt-4 mb-4">Author: {{ post.name }}</h6>
+        <SanityBlocks :blocks="blocks" class="max-w-4xl mt-6 text-justif" />
       </div>
     </div>
+  </div>
+  <div class="p-7 max-w-full bg-zinc-200">
+    <div><RouterLink to="/kisah" class="px-6 top-0">Back</RouterLink></div>
   </div>
 </template>
 

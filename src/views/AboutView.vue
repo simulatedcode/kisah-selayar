@@ -1,5 +1,91 @@
+<script></script>
 <template>
-  <div>
-    <h1>This is an about page</h1>
+  <div class="relative bg-gray-50 p-12">
+    <div class="max-w-4xl ml-10">
+      <h1 class="text-5xl font-semibold mb-6">Tentang: Kisah Selayar</h1>
+      <p class="pt-6 text-justify">
+        Indonesia terdiri dari berbagai kenyataan kultural sebelum satu kesatuan
+        hukum, politik dan administrasi menyatukan keragaman ini di dalamnya.
+        Keragaman praktik budaya kita membentang dari darat, laut, gunung,
+        lembah beserta keragaman hayati yang tumbuh dan hidup bersamanya. Dari
+        keragaman bentang kebudayaan tersebut, tumbuhlah pengetahuan-pengetahuan
+        di lokasi-lokasi yang dihidupi dan diteruskan dari generasi ke generasi.
+        Salah satu metode transfer pengetahuan tersebut ialah dengan tradisi
+        lisan, berupa dongeng, pantun, cerita rakyat, syair lagu, rapalan
+        mantra, dan ekspresi-ekspresi lainnya.
+      </p>
+      <p class="pt-2 text-justify">
+        Menariknya, metode transfer pengetahuan ini selain memproduksi
+        pengetahuan juga menghasilkan ragam bentuk kesenian dan ekspresi yang
+        khas dan kontekstual, seturut dengan watak masyarakat dan karakter
+        alamnya. Metode ini juga masih berlangsung, dilestarikan dari waktu ke
+        waktu.
+      </p>
+      <p class="pt-2 text-justify">
+        Akan tetapi, perubahan tidak dapat dibendung. Perubahan cara
+        berkomunikasi kita, perkembangan wisata hingga pembangunan, tidak jarang
+        berpengaruh pada eksistensi pengetahuan lokal. Jika keduanya tidak
+        berjalan beriringan, maka salah satu diantaranya akan tersisih, dan
+        semakin lama kian terhapus. Tidak jarang, pengetahuan dan kebijakan
+        setempat lah yang harus mengalah.
+      </p>
+      <p class="pt-2 text-justify">
+        Jika itu yang terjadi, lantas pengetahuan macam apa yang akan kita
+        teruskan dan wariskan ke anak cucu nusantara kita? Lalu, ekosistem macam
+        apa yang sedang kita bangun untuk anak cucu kita ini? Kali ini kita
+        berangkat dari Pulau Selayar. Selain dikenang sebagai salah satu daerah
+        tujuan utama pada kurun niaga, Pulau Selayar juga diberi nama Tana
+        Doang, yang artinya adalah tanah tempat berdoa. Pada masa tersebut,
+        Pulau Selayar menjadi tempat berdoa bagi para pelaut yang hendak
+        melanjutkan perjalanan ke berbagai penjuru. Dari Pulau yang disinggahi
+        untuk melantunkan doa-doa ini, kami terdorong untuk melakukan
+        penelusuran lebih jauh, menggali pengetahuan yang tumbuh dari tanah
+        tersebut.
+      </p>
+      <p class="pt-2 text-justify">
+        Dasar dari program ini adalah mengidentifikasi pengetahuan lokal, dengan
+        mengumpulkan dan menuliskan kembali kisah-kisah yang lahir dan hidup di
+        Pulau Selayar. Kisah yang diteruskan secara turun-temurun oleh warga
+        sekitar, atau tradisi lisan, yang berupa dongeng, pantun, cerita rakyat,
+        syair lagu, rapalan atau ekspresi lisan lainnya.
+      </p>
+      <p class="pt-2 text-justify">
+        Kisah dan cara penuturannya ini sangat penting untuk dituliskan dan
+        disebarluaskan dengan beragam medium yang lekat dan dekat dengan
+        ekspresi-ekspresi masyarakat dari berbagai segmen, terutama kalangan
+        anak sejak pendidikan usia dini dan pendidikan dasar. Karena generasi
+        inilah yang kelak akan mengenang dan meneruskan pengetahuan dan
+        kebijaksanaannya untuk berbagai keperluan, termasuk upaya merawat
+        keseimbangan alam.
+      </p>
+      <p class="pt-2 text-justify">
+        Keragaman ekspresi dan cara tutur ini juga perlu kita garis bawahi, dan
+        dari sinilah kita menggunakan istilah repertoar. Repertoar sebagai
+        perbendaharaan cara tutur dan ragam ekspresi yang hidup di suatu
+        masyarakat. Repertoar sebagai sinonim dari perbendaharaan ekspresi,
+        pengetahuan dan kebijaksanaan.
+      </p>
+      <p class="pt-2 text-justify">
+        Pemeliharaan pengetahuan lokal ini diniatkan untuk menjadi bekal
+        kultural yang bisa berperan sebagai jangkar dalam menghadapi badai dan
+        ancaman, termasuk mengatasi persoalan sosial-ekologi yang kian mendesak.
+        Baik ancaman yang mengatasnamakan pembangunan atau ekstraksi sumber daya
+        alam.
+      </p>
+      <p class="pt-2 text-justify">
+        Sebagai daerah yang kerap diusulkan masuk dalam Kawasan Ekonomi Khusus
+        Pariwisata, Kepulauan Selayar diperebutkan oleh banyak pihak, mulai dari
+        investasi berorientasi profit dan titik pengawasan militer. Belum lagi
+        praktik <i>destructive fishing</i> yang seringkali lolos jeratan hukum
+        dan ancaman praktik jual-beli pulau.
+      </p>
+      <p class="pt-2 text-justify">
+        Sementara di sisi lain, praktek setempat masyarakat Selayar lebih
+        menunjukkan kedekatannya dengan kelestarian alam. Kearifan lokal inilah
+        yang memperkuat relasi antara manusia dan ruangnya, dengan tanah dan
+        lautnya. Dari tradisi lisan yang berkembang di masyarakat, tidak jarang
+        kita menemukan kebijaksanaan hutan, sungai dan biota lautnya.
+      </p>
+    </div>
   </div>
 </template>
